@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# env files (contain Firebase secrets)
+.env*
+!.env.local.example
+
+# patient data — never commit real patient data
+/data/*.xlsx
+/data/*.xls
+/data/*.csv
+
+# misc
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# firebase
+.firebase/
+firebase-debug.log
+serviceAccountKey.json
+.vercel
